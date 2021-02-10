@@ -1,3 +1,26 @@
+/*You are given a sequence A1,A2,…,AN. Find the maximum value of the expression |Ax−Ay|+|Ay−Az|+|Az−Ax| over all triples of pairwise distinct valid indices (x,y,z).
+Example Input
+
+3
+3
+2 7 5
+3
+3 3 3
+5
+2 2 2 2 5
+
+Example Output
+
+10
+0
+6
+
+Explanation
+
+Example case 1: The value of the expression is always 10
+. For example, let x=1, y=2 and z=3, then it is |2−7|+|7−5|+|5−2|=5+2+3=10.
+*/
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
